@@ -1,0 +1,401 @@
+.calc-container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.mortgage-calculator{
+
+  background-color: #f9fafb;
+}
+.existing-section{
+  width: 100%;
+}
+
+.mortgage-calculator {
+  padding: 40px 100px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: center;
+}
+
+h1 {
+  font-size: 50px;
+  margin-bottom: 16px;
+}
+
+h2 {
+  font-size: 18px;
+  margin-bottom: 16px;
+}
+
+p {
+  font-size: 16px;
+  margin-bottom: 24px;
+}
+.calculator-section{
+  margin-top: 50px;
+  margin-bottom: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.calculator-section .input-group{
+  width: 30%;
+}
+
+.calculator-section .input-group label{
+  font-weight: 600;
+  font-size: 16px;
+}
+.calculator-section .input-group input{
+  height: 80px;
+  width: 250px;
+  padding: 10px 20px 10px 5px;
+  font-size: 45px;
+  font-weight: 500;
+  border: 1px solid #777;
+}
+.input-group .output{
+  font-size: 45px;
+  font-weight: 500;
+}
+
+.calculator-section, .details-section, .new-section {
+  margin-bottom: 24px;
+  width: 100%;
+}
+
+.input-group {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 16px;
+}
+
+.input-group label {
+  font-size: 14px;
+  margin-bottom: 8px;
+}
+
+.input-group input, .input-group select {
+  padding: 8px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.output {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.slider-section input[type=range] {
+  width: 100%;
+}
+
+.breakdown-details {
+  display: flex;
+  flex-direction: column;
+}
+
+.breakdown-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 8px;
+}
+
+.breakdown-item span {
+  font-size: 16px;
+}
+
+.copy-link {
+  padding: 15px 16px;
+  background-color: #ccc;
+  color: #000;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 16px;
+  width: 200px;
+  font-weight: 500;
+  
+}
+
+.copy-link:hover {
+  background-color: #ccd;
+}
+
+
+button.approve-btn{
+  border: none;
+  background-color: rgb(0,70,50);
+  color: #fff;
+  padding: 20px 40px;
+  font-size: 18px;
+  border-radius: 10px;
+}
+
+.details-section{
+  margin-top: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+.details-section .input-group{
+  width: 23%;
+}
+
+
+.details-section label{
+  margin-bottom: 4px;
+  font-weight: 500;
+  font-size: 15px;
+}
+.details-section input, .details-section select{
+  background-color: #fff;
+  font-size: 18px;
+  border-top-left-radius: 5px !important;
+  border-bottom-left-radius: 5px !important;
+  cursor: pointer;
+}
+
+.details-section input:hover, 
+.details-section select:hover{
+  outline: 2px solid rgb(0,70,50);
+}
+
+
+.new-section{
+  margin-top: 40px;
+  margin-bottom: 40px;
+  display: flex;
+  justify-content: space-between;
+  gap: 50px;
+}
+
+.new-section .left{
+  display: flex;
+  flex-direction: column;
+  width: 50%;  
+}
+.new-section .left .output{
+  font-size: 45px;
+  font-weight: 500;
+}
+
+.breakdown-details{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 50%;
+}
+
+.breakdown-item span:nth-child(2){
+  font-weight: 500;
+}
+
+.breakdown-item input{
+  height: 60px;
+  padding: 20px 10px;
+  padding-left: 10px;
+}
+
+.breakdown-item:first-child{
+  display: flex;
+}
+
+.breakdown-item:first-child span:last-child{
+  width: 40%;
+}
+.line{
+  --tw-border-opacity: 1;
+  border-color: rgb(67, 68, 67);
+  width: 100%;
+}
+
+.para{
+  margin-top: 30px;
+}
+
+.para h3{
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+
+.para p{
+  font-size: 17px;
+}
+
+.para .img{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: start;
+  gap: 20px;
+}
+
+.para .img span{
+  text-align: start;
+}
+
+.para .img img{
+  width: 750px;
+  margin-bottom: 40px;
+  margin-top: 0px;
+}
+
+.box-parent{
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+
+.box-parent .box{
+  width: 30%;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  padding: 10px 40px;
+  display: flex;
+  justify-content: center;
+  text-align: start;
+  border-radius: 10px;
+} 
+.box-parent .box h3{
+  font-size: 18px;
+  font-weight: 400;
+  text-align: start;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.box-parent .box a{
+  text-align: start;
+  text-decoration: none;
+  color: rgb(0,70,50);
+  text-align: start;
+  font-weight: 500;
+  margin-bottom: 5px;
+}
+
+.box-parent .box p{
+  font-size: 15px;
+  margin-bottom: 0px;
+}
+
+span.sml-txt{
+  margin-top: 70px;
+  font-size: 13px;
+  margin-bottom: 40px;
+}
+
+.in-para h1{
+  font-size: 35px;
+}
+
+.para h1{
+  font-size: 35px;
+}
+
+thead tr{
+  background-color: rgb(0,70,50);
+}
+
+.bg-accentPrimary{
+  --tw-bg-opacity: 1;
+  background-color: rgb(0,71,51);
+  color: #fff;
+  font-weight: 400;
+}
+
+@media (max-width: 1115px) {
+  
+.details-section{
+  margin-top: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+.details-section .input-group{
+  width: 48%;
+}
+  .output{
+    font-size: 30px !important;
+  }
+  .calculator-section input{
+    font-size: 30px !important;
+  }
+}
+
+
+@media (max-width: 975px) {
+  .calculator-section{
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .calculator-section .input-group{
+    width: 50%;
+  }
+  .approve-div{
+    width: 100% !important;
+  }
+  .approve-div .approve-btn{
+    margin-top: 10px;
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  .new-section{
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .new-section .left{
+    width: 100%;
+  }
+  .new-section .breakdown-details{
+    width: 100%;
+  }
+}
+
+
+
+@media (max-width:867px) {
+  .mortgage-calculator{
+    padding: 40px 17px;
+  }
+  .para{
+    text-wrap: wrap !important;
+  }
+  .para h3 {
+    font-size: 24px;
+  }
+  .para p{
+    font-size: 14px;
+    text-wrap: wrap !important;
+  }
+  .para .img img {
+    width: 100%;
+  }
+  .in-para h1{
+    font-size: 26px !important;
+  }
+  .output {
+    font-size: 21px !important;
+}
+.calculator-section input {
+  font-size: 21px !important;
+}
+  h1.mortgage{
+    font-size: 41px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .box{
+    width: 100% !important;
+    padding: 30px 30px;
+  }
+}

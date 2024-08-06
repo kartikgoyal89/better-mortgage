@@ -1,0 +1,97 @@
+
+
+.find-out{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.features .find-out .left .img {
+    border-radius: 10px;
+    width: 300px;
+    height: 500px;
+    margin-top: 100px;
+}
+.features .find-out .left .img img{
+    
+    width: 100%;
+    object-fit: contain;
+    object-position: center;
+    border-radius: 10px;
+}
+
+.features .right{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+
+.features .right h2{
+    font-size: 80px;
+    letter-spacing: -2px;
+}
+
+.features .right button{
+    background-color: rgb(0,71,50);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 50px;
+    color: #fff;
+    border-radius: 30px;
+
+}
+
+.features .right .lower{
+    margin-top: 20px;
+    display: flex;
+    gap: 20px;
+}
+.features .right .star{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+
+.features .star h5{
+    font-size: 16px;
+}
+
+.features .buttons{
+    margin-top: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.features .buttons button{
+    border: 1px solid #ccc;
+    background-color: transparent;
+    padding: 10px 20px;
+    border-radius: 25px;
+    font-weight: 500;
+}
+
+.features .buttons button:hover{
+    outline: 3px solid rgb(0,71,50);
+}
+
+.features .buttons .active{
+    outline: 3px solid rgb(0,71,50);
+}
+
+
+@media (max-width: 1115px) {
+    .find-out{
+        justify-content: center;
+    }
+    .find-out .left{
+        width: 50%;
+    }
+    .find-out .right h2{
+        font-size: 50px;
+    }
+}
+

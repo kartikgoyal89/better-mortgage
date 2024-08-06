@@ -1,0 +1,192 @@
+.reviews{
+    padding: 0 50px;
+    margin-top: 100px;
+    margin-bottom: 40px;
+}
+.heading{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.reviews .heading .buttons{
+    display: flex;
+    gap: 20px;
+}
+
+.reviews .heading .buttons button{
+    border: 1px solid #ccc;
+    padding: 10px 20px;
+    border-radius: 20px;
+}
+
+
+.boxes{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 60px;
+    gap: 20px;
+}
+.boxes .box{
+    padding: 20px;
+}
+
+.boxes .box-1{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 20px;
+}
+
+.boxes .box-1 h4{
+    text-align: start;
+}
+
+
+.box-1 img{
+    width: 400px;
+}
+.boxes .box-2{
+    display: flex !important;
+    flex-direction: row;
+    align-items: start;
+    justify-content: space-around;
+    width: 62%;
+}
+.boxes .box-2 p{
+    text-align: start;
+}
+
+.boxes .box-2 .left{
+    margin-top: 20px;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+.boxes .box-2 .right{
+    width: 40%;
+}
+
+.box-2 img{
+    width: 350px;
+}
+
+.box-2 .left h4{
+    text-align: start;
+}
+.box h4{
+    color: #000;
+}
+
+.box-3{
+    width: 60%;
+}
+.box-4{
+    width: 38%;
+}
+
+
+.boxes .box-3{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+.box-3 img{
+    width: 300px;
+    border-radius: 10px;
+}
+
+.box-3 .right{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: start;
+}
+
+.box-3 .right p{
+    text-align: start;
+}
+
+.box-4 img{
+    width: 100%;
+}
+
+.box-4{
+    display: flex;
+    flex-direction: column;
+    gap: 20px !important;
+    justify-content: center;
+    align-items: start;
+}
+
+.box button.arrow{
+    border: 1px solid #ccc;
+    background-color: transparent;
+    padding: 10px 12px;
+    width: max-content;
+    border-radius: 50%;
+}
+
+.box-4 .arrow{
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+}
+
+.box-3 h3,.box-4 h3{
+    color: #000;
+}
+
+.buttons .active{
+    outline: 3px solid rgb(0,71,50);
+}
+
+.buttons button:hover{
+    outline: 3px solid rgb(0,71,50);
+}
+.house{
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.house img{
+    height: 100%;
+}
+
+
+.box button.arrow:hover{
+    background-color: rgb(0,71,50);
+    padding: 10px 12px;
+    color: #fff;
+    width: max-content;
+    border-radius: 50%;
+}
+
+
+
+@media (max-width: 1115px) {
+    .reviews{
+        overflow-x: hidden !important;
+    }
+    .reviews .heading{
+        display: flex;
+        flex-direction: column;
+        gap: 0px;
+        height: auto !important;
+    }
+
+    .box-1,
+    .box-2,
+    .box-3,
+    .box-4{
+        width: 100% !important;
+    }
+
+    .reviews .heading h1{
+        font-size: 40px;
+        margin-top: 10px !important;
+    }
+}
