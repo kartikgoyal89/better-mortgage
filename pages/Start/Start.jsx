@@ -5,6 +5,7 @@ import { MdOutlineTabletMac } from "react-icons/md";
 import { BiDollarCircle } from "react-icons/bi";
 import { FaFacebookSquare } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa";
+import Meta from "../../components/Meta/Meta";
 import { FaLinkedin } from "react-icons/fa";
 
 import "./start.css";
@@ -12,6 +13,7 @@ import "./start.css";
 const Start = () => {
   return (
     <div className="start-container">
+      <Meta title={"Start Page"} />
       <div className="start-header">
         <div className="upper-part d-flex align-items-center">
           <div className="left">

@@ -7,6 +7,7 @@ import { IoIosTrendingDown } from "react-icons/io";
 import { CiCalculator1 } from "react-icons/ci";
 import Footer from "../../components/Footer/Footer";
 import Header from "../../components/Header/Header";
+import Meta from "../../components/Meta/Meta";
 
 const Calc = () => {
   const [homePrice, setHomePrice] = useState(1312500);
@@ -52,6 +53,7 @@ const Calc = () => {
 
   return (
     <>
+      <Meta title={"Mortgage Calculator"} />
       <Header />
       <div className="calc-container">
         <div className="mortgage-calculator">
